@@ -2,7 +2,7 @@
   "name": "mlb-headlines-cheerio",
   "version": "1.0.0",
   "description": "Major League Baseball headlines from MLB.com",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,11 +17,13 @@
   },
   "homepage": "https://github.com/btommer2017/MLB-Headlines-Cheerio#readme",
   "dependencies": {
+    "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
     "mongoose": "^5.1.5",
+    "morgan": "^1.9.0",
     "request": "^2.87.0"
   }
 }
